@@ -1,0 +1,26 @@
+msgid "Primary Menu"
+msgstr "Primární menu"
+
+msgid "Singles"
+msgstr "Singly"
+
+msgid "Single"
+msgstr "Singl"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "With engineer"
+msgstr "S inženýrem"
+
+msgid "Without engineer"
+msgstr "Bez inženýra"
+
+msgid "Space only"
+msgstr "Pouze prostor"
+
+msgid "Reserve"
+msgstr "Rezervovat"

@@ -1,0 +1,72 @@
+/*
+Theme Name: GANG CULTURE
+Theme URI: http://example.com/gangculture
+Author: GANG CULTURE
+Author URI: http://example.com
+Description: Hip hop/graffiti theme with 3D parallax effects, WooCommerce, and custom features.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gangculture
+Tags: dark, graffiti, hip-hop, 3d, parallax
+*/
+
+body {
+    background: #111;
+    color: #eee;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Permanent Marker', cursive;
+    color: #0ff;
+}
+
+a {
+    color: #f0f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0;
+}
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.parallax__layer--base {
+    transform: translateZ(0);
+}
+
+.parallax__layer--back {
+    transform: translateZ(-1px) scale(2);
+}
+
+.gang-btn {
+    background: #f0f;
+    color: #000;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.gang-btn:hover {
+    transform: scale(1.1);
+}
+
+#reservation-calendar {
+    max-width: 600px;
+    margin: 20px auto;
+}
